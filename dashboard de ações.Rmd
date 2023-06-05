@@ -1,0 +1,44 @@
+---
+title: "Aula 14/05 - Dashboard de ações "
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+#Dashboard
+library(flexdashboard)#Dashboard
+library(flexdashboard)
+
+#Manipular as tabelas
+library (dplyr)
+
+#Gráficos
+
+library (ggplot2)
+library (plotly)
+
+#Pegar dados financeiros
+library (tidyquant)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
